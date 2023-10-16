@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', sans-serif;
+}
+#project>h1{
+    margin: 2vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    margin:3vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box>a{
+    width: 30vw;
+    height: 20vw;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1vw;
+    box-shadow: 0.3vw 0.3vw 0.2vw 0.1vw rgba(0, 0, 0, 0.2);
+}
+#img1{
+    background-image: url(./cookies.png);   
+}
+#img2{
+    background-image: url(./tala.png);   
+}
+#img3{
+    background-image: url(./bubbleGame.png);   
+}
+#img4{
+    background-image: url(./digital.png);   
+}
+#img5{
+    background-image: url(./maes-cookies.png);   
+}
+#img6{
+    background-image: url(./pink-flare.png);   
+}
+#img7{
+    background-image: url(./cynthia.png);   
+}
+#img8{
+    background-image: url(./DUO.png);   
+}
+#img9{
+    background-image: url(./miranda.png);   
+}
