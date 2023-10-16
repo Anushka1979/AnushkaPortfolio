@@ -72,6 +72,7 @@ a{
 }
 #page2-left>img{
     width: 25vw;
+    height: 30vw;
     border-radius: 2vw;
     position: absolute;
     z-index: 9999999;
@@ -81,7 +82,7 @@ a{
 }
 #page2-left #border-div{
     width: 25vw;
-    height: 35vw;
+    height: 30vw;
     border: 0.8vw solid #9f9f9f;
     border-radius: 2vw;
     margin-left: 2.8vw;
@@ -170,11 +171,44 @@ a{
     border-radius: 1vw;
     box-shadow: 0.3vw 0.3vw 0.2vw 0.1vw rgba(0, 0, 0, 0.2);
 }
+.box-1>a{
+    width: 30vw;
+    height: 20vw;
+    background-size: cover;
+    border-radius: 1vw;
+    box-shadow: 0.3vw 0.3vw 0.2vw 0.1vw rgba(0, 0, 0, 0.2);
+}
+.box-1{
+    margin:3vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25vw;
+}
 #box1>a{
     background-image: url(./never-land.png);   
 }
+.unknown>a{
+    width: 30vw;
+    height: 20vw;
+    background-size: cover;
+    border-radius: 1vw;
+    box-shadow: 0.3vw 0.3vw 0.2vw 0.1vw rgba(0, 0, 0, 0.2);
+}
+.unknown{
+    margin:3vw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25vw;
+    display: none;
+}
+#unknown>a{
+    background-image: url(./cashew.png);
+}
 #box2>a{
     background-image: url(./cashew.png);
+
 }
 #box3>a{
     background-image: url( ./game.png);
@@ -279,6 +313,45 @@ a{
     }
 }
 @media screen and (max-width:550px) {
-    
+    #page2{
+        flex-direction: column;
+    }
+    #page2-left{
+        margin:  auto;
+    }
+    #page2-right{
+        margin:  auto;
+    }
+    #page2-right>h4{
+        width: 70vw;
+        font-size: 2vw;
+    }
+    #page3 .box-1{
+        display: none;
+    }
+    #page3 .unknown{
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+        text-align: center;
+    }
+    #page3 .box{
+        flex-direction: column;
+        gap: 3vw;
+        text-align: center;
+    }
+    #page3 #text-area>p{
+        text-align: start;
+        width: 60vw;
+        font-size: 2vw;
+    }
+    #page3 .box>a{
+        width: 80vw;
+        height: 40vw;
+    }
+    #page3 #unknown>a{
+        width: 80vw;
+        height: 40vw;
+    }
 }
 

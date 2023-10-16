@@ -22,7 +22,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 1vw;
-    box-shadow: 0.3vw 0.3vw 0.2vw 0.1vw rgba(0, 0, 0, 0.2);
+    box-shadow:  rgba(0, 0, 0, 0.2);
 }
 #img1{
     background-image: url(./cookies.png);   
